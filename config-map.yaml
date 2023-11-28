@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wordpress-configmap
+  namespace: cep-project1
+data:
+  WORDPRESS_CONFIG_FILE_PATH: /var/www/html/wp-config.php
